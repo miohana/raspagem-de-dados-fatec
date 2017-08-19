@@ -22,7 +22,12 @@ pip install beautifulsoup4
 - [SACSP](https://sacsp.mamulti.com/)
 - [TrainWay](http://trainway.azurewebsites.net/)
 
-### Equipe:
+## Para saber mais:
+- [Github do Marco Tulio Pires](https://github.com/mtrpires)
+- [Repositório de treinamento do Masanori](https://github.com/fmasanori/treinamento)
+- [Livro Web Scraping com Python](https://novatec.com.br/livros/web-scraping-com-python/)
+
+### Nossa equipe:
 * Ana Carolina Lopes ([@anacls](https://github.com/anacls))
 * Jennifer Martins ([@jeemartins](https://github.com/jeemartins))
 * Lidiane Taquehara ([@lidimayra](https://github.com/lidimayra))
