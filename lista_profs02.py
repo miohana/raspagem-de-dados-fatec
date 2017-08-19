@@ -10,7 +10,7 @@ body = bsObj.tbody
 rows = body.findAll('tr')
 
 for row in rows:
-    name = row.find('td').getText()
+    name = row.find('td').text
 
     if 'MARIA' in name:
-        print(row.getText())
+        print(row.text)

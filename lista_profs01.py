@@ -10,5 +10,4 @@ body = bsObj.tbody
 rows = body.findAll('tr')
 
 for row in rows:
-    data = row.getText()
-    print(data)
+    print(row.text)
