@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 
 url = 'http://cultura.jundiai.sp.gov.br/tag/jundiai/'
 html = urlopen(url)
-bsObj = BeautifulSoup(html.read(), 'html.parser')
+soup = BeautifulSoup(html.read(), 'html.parser')
 
-lista_titulos = bsObj.findAll('a', { 'class': 'titulo-lista' })
+lista_titulos = soup.findAll('a', { 'class': 'titulo-lista' })
 
 for titulo in lista_titulos:
     print(titulo.text)

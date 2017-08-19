@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 url = 'http://www.whatstheharm.net/apocalypsefear.html'
 html = urlopen(url)
 
-bsObj = BeautifulSoup(html.read(), 'html.parser')
+soup = BeautifulSoup(html.read(), 'html.parser')
 
-tag = bsObj.find('cite')
+tag = soup.find('cite')
 print(tag.text)

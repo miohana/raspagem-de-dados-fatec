@@ -5,9 +5,9 @@ from bs4 import BeautifulSoup
 url = 'http://www.fatecjd.edu.br/site/a-fatec-jd/corpo-docente'
 html = urlopen(url)
 
-bsObj = BeautifulSoup(html.read(), 'html.parser')
+soup = BeautifulSoup(html.read(), 'html.parser')
 
-body = bsObj.tbody
+body = soup.tbody
 rows = body.findAll('tr')
 
 for row in rows:
