@@ -10,7 +10,7 @@ tables = soup.findAll('table')
 rows = tables[1].findAll('tr')
 
 for row in rows:
-    td = row.find('td')
+    td = row.td
 
     if td:
         programa = td.text.strip()
