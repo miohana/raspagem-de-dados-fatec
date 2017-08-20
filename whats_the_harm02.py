@@ -8,3 +8,9 @@ soup = BeautifulSoup(html.read(), 'html.parser')
 
 tag = soup.cite
 print(tag.text)
+
+tag = soup.table.cite
+print(tag.text)
+
+tag = soup.html.body.table.cite
+print(tag.text)
