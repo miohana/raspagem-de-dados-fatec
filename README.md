@@ -2,7 +2,11 @@
 
 Minicurso a ser reallizado durante a Semana de Tecnologia 2017 na Fatec Jundiaí
 
-Nós participamos do curso [Hackeando Dados Públicos usando Python](https://www.facebook.com/events/240063436506115) com o [Fernando Masanori](https://github.com/fmasanori), onde aprendemos técnicas muuuito legais e compartilharemos nosso aprendizado durante a [Semana de Tecnologia](http://www.fatecjd.edu.br/semtec/) da Fatec. O evento é aberto ao público geral e as inscrições podem ser feitas através do site.
+Nós participamos do curso [Hackeando Dados Públicos usando Python](https://www.facebook.com/events/240063436506115) com o [Fernando Masanori](https://github.com/fmasanori), onde aprendemos técnicas muuuito legais e compartilharemos nosso aprendizado durante a [Semana de Tecnologia](http://www.fatecjd.edu.br/semtec/) da Fatec. O evento é **aberto ao público geral** e as inscrições podem ser feitas [neste link](http://www.fatecjd.edu.br/semtec/2017/inscr.php).
+
+Temos duas datas de apresentação:
+- 4 de setembro às 19:30
+- 5 de setembro às 16:00
 
 ## O que é
 A **raspagem de dados** (_data scraping_) é uma técnica computacional de coleta automatizada de dados. Durante o curso focaremos no _web scraping_, cuja finalidade consiste em extrair dados que podem ser visualizados em um navegador web.
