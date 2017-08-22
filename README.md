@@ -1,4 +1,4 @@
-## Raspagem de dados @ FATEC Jundiaí
+## Raspagem de dados Web com Python @ FATEC Jundiaí
 
 Minicurso a ser reallizado durante a Semana de Tecnologia 2017 na Fatec Jundiaí
 
@@ -27,6 +27,13 @@ pip install beautifulsoup4 numpy scipy matplotlib
 
 :small_orange_diamond: Para os scripts que usaremos durante o minicurso, a instalação do `beautifulsoup4` é suficiente. `numpy`, `scipy` e `matplotlib` serão utilizadas apenas em exemplos mais avançados que envolvem visualização de dados e não serão abordados durante a apresentação devido ao tempo.
 
+Para garantir que a instalação foi realizada com sucesso, abra o console Python, faça a importação da biblioteca e chame pela classe `BeautifulSoup`:
+
+```
+>>> from bs4 import BeautifulSoup
+>>> BeautifulSoup
+<class 'bs4.BeautifulSoup'>
+```
 
 ## Exemplos de projetos que fazem uso de raspagem de dados:
 - [Operação Serenata de Amor](https://serenatadeamor.org/)
