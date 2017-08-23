@@ -36,6 +36,7 @@ Para garantir que a instalação foi realizada com sucesso, abra o console Pytho
 ```
 
 ## Exemplos de projetos que fazem uso de raspagem de dados:
+- [Love Mondays](https://www.lovemondays.com.br/)
 - [Operação Serenata de Amor](https://serenatadeamor.org/)
 - [SACSP](https://sacsp.mamulti.com/)
 - [TrainWay](http://trainway.azurewebsites.net/)
